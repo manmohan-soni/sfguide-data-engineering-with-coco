@@ -10,3 +10,6 @@ dbt/profiles.yml
 
 # Mac files
 .DS_Store
+
+#Python env
+env/
