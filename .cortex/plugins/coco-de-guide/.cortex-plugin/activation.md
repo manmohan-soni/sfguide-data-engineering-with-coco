@@ -1,0 +1,1 @@
+This plugin bundles project-specific skills, subagents, and hooks for the coco-de-guide dbt project. It includes the new-dbt-model skill for scaffolding dbt models that follow the project's conventions (source() references, snake_case naming, schema tests).

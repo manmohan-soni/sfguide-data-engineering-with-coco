@@ -1,0 +1,6 @@
+-- generate token from webportal with name DEMO_PAT and save token. After that run this script
+
+SET MY_USER = CURRENT_USER();
+
+ALTER USER IDENTIFIER($MY_USER) MODIFY PROGRAMMATIC ACCESS TOKEN DEMO_PAT
+  SET MINS_TO_BYPASS_NETWORK_POLICY_REQUIREMENT = 60;
